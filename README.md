@@ -16,7 +16,7 @@ Please first configure the environment according to the official configuration t
 
 HiGS-Calib uses ROMA to extract inter-frame flows, please following the configuration tutorial of [ROMA](https://github.com/Parskatt/RoMa) to configure the environment.
 
-To use HiGS, you need to download the weights of ROMA from the official implementation or our [link](xxx). 
+To use HiGS, you need to download the weights of ROMA from the official implementation or our [BaiduNet link](https://pan.baidu.com/s/1TDMl0XgYW1Lqr0W4oKCfeg?pwd=d7hu).
 
 #### Pytorch3D
 
@@ -26,7 +26,7 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git"
 ```
 
 ### Dataset
-The reorganized version of [KITTI360](https://www.cvlibs.net/datasets/kitti-360/) prepared for HiGS-Calib is [offered](xxx).
+The reorganized version of [KITTI360](https://www.cvlibs.net/datasets/kitti-360/) prepared for HiGS-Calib is [offered](https://pan.baidu.com/s/1TDMl0XgYW1Lqr0W4oKCfeg?pwd=d7hu).
 
 ### Running
 
