@@ -2,7 +2,6 @@ import torch
 import numpy as np
 import torch.nn as nn
 import pytorch3d.transforms
-import lietorch as li
 
 from utils.general_utils import inverse_sigmoid, get_expon_lr_func, build_rotation
 

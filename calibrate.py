@@ -549,8 +549,7 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpoi
             Ll1 = l1_loss(image[image_mask], gt_image[image_mask])
 
         if FUSED_SSIM_AVAILABLE:
-            ssim_mask = dilate_false_mask(image_mask[1], window_size=11).repeat(3, 1, 1)
-            ssim_value = fused_ssim(image.unsqueeze(0), gt_image.unsqueeze(0), mask=ssim_mask.unsqueeze(0))
+            ssim_value = fused_ssim(image.unsqueeze(0), gt_image.unsqueeze(0))
         else:
             ssim_value = ssim(image, gt_image, window_size=5)
 

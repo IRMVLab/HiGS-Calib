@@ -39,5 +39,5 @@ For example
 
 
 ```shell
-python calibrate.py -s HiGS-Calib-dataset/KITTI360 -flow_path weights/ --optimizer_type sparse_adam  --cam_id 00 (00 or 01) --data_seq 2 (0-4)
+python calibrate.py -s HiGS-Calib-dataset/KITTI360 --flow_path weights/ --optimizer_type sparse_adam  --cam_id 00 (00 or 01) --data_seq 2 (0-4)
 ```
